@@ -14,5 +14,11 @@ class JaibBank implements Payment {
   }
 }
 
+class Floosakbank implements Payment {
+  void pay(double amount) {
+    print('$amount paid using Floosak Bank');
+  }
+}
+
 
 
