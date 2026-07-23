@@ -1,6 +1,7 @@
 
 main() {
-  
+  Payment jaib = JaibBank();
+  jaib.pay(1000);
 }
 
 abstract class Payment {
